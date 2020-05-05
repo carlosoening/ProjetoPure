@@ -1,0 +1,114 @@
+
+ body {
+    color: #526066;
+    margin: auto;
+    text-align: center;
+}
+main {
+    width: 1170px;
+    color: #526066;
+    margin: auto;
+    text-align: center;
+}
+
+.l-content {
+    margin: 0 auto;
+}
+
+.l-box {
+    padding: 0.5em 2em;
+}
+
+.pure-menu {
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+
+.pure-menu-link {
+    padding: 2px;
+}
+.pure-menu-list .pure-menu-item {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+.titulo {
+    font-size: 25px;
+}
+
+.m {
+    text-align: right;
+    padding: 80px 0;
+}
+.m .pure-menu-item .pure-menu-link {
+    color: white;
+    font-size: 14px;
+    padding: 18px 0;
+    background-color:rgba(0, 0, 0, 0);
+}
+.m .pure-menu-item .pure-menu-link:hover {
+    background-color:rgba(0, 0, 0, 0);
+}
+.m .pure-menu-heading {
+    color: white;
+    font-size: 22px;
+}
+.f {
+    text-align: left;
+    padding: 80px 0;
+}
+.f .pure-menu-item .pure-menu-link {
+    color: white;
+    font-size: 14px;
+    padding: 18px 0;
+    background-color:rgba(0, 0, 0, 0);
+}
+.f .pure-menu-item .pure-menu-link:hover {
+    background-color:rgba(0, 0, 0, 0);
+}
+.f .pure-menu-heading {
+    color: white;
+    font-size: 22px;
+}
+.footer {
+    background: #111;
+    color: #888;
+    text-align: center;
+}
+.footer a {
+        color: #ddd;
+}
+
+.logo-img {
+    width: 200px;
+}
+.frete {
+    background-color: greenyellow;
+}
+.primeiro-menu {
+    text-align: center;
+    align-items: center;
+}
+.button-secondary {
+    background: rgb(66, 184, 221);
+    /* this is a light blue */
+}
+#entrar {
+    margin-left: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:visited   {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.banner-1 {
+    background-image: url("/img/banner1.png");
+}
