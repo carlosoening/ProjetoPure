@@ -110,5 +110,5 @@ a:hover {
     text-decoration: underline;
 }
 .banner-1 {
-    background-image: url("/img/banner1.png");
+    background-image: url("img\\banner1.png");
 }
