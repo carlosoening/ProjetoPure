@@ -165,6 +165,13 @@ main {
 }
 
 .menu-principal .pure-menu-link{
-    height: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px 0;
+    height: 20px;
     width: 100px;
+}
+.menu-principal .pure-menu-item{
+    margin-left: 0px;
+    margin-right: 0px;
 }
