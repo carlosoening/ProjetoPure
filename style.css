@@ -175,3 +175,13 @@ main {
     margin-left: 0px;
     margin-right: 0px;
 }
+.banner2 {
+    background-image: url("img\banner2.png");
+    width: 1000px;
+    text-align: left;
+    color:whitesmoke;
+
+}
+.texto {
+    color:black;
+}
