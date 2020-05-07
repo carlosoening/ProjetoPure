@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de cadastro</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tela de cadastro</h1>
+    <div class = "banner banner2">
+    <form class="pure-form pure-input-rounded">
+        <fieldset>
+            <div class="pure-control-group">
+                <label for="aligned-nome">Nome completo</label>
+                <input type="text" class = "texto" id="aligned-nome" placeholder="Nome completo" />
+            </div>
+            <div class="pure-control-group">
+                <label for="aligned-email">E-mail</label>
+                <input type="email" class = "texto" id="aligned-email" placeholder="E-mail" />
+            </div>
+            <div class="pure-control-group">
+                <label for="aligned-senha">Senha</label>
+                <input type="password" class = "texto" id="aligned-senha" placeholder="Senha" />
+            </div>
+            <div>
+                <label for="diaa">Data de nascimento</label>
+                <input type="date" class = "texto" id="diaa" name="diaa">
+              </div>
+            <div class="pure-control-group">
+                <label for="aligned-cpf">CPF</label>
+                <input type="text" class = "texto" class="form-control cpf-mask" placeholder="Ex.: 000.000.000-00">
+            </div>
+            <div class="pure-control-group">
+                <label for="aligned-endereco">Endereço</label>
+                <input type="text" class = "texto" id="aligned-endereco" placeholder="Endereço" />
+            </div>
+            <label for="stacked-estado">Estado</label>
+        <select class = "texto" id="stacked-estado">
+            <option></option>
+            <option>PR</option>
+            <option>SC</option>
+            <option>RS</option>
+        </select>
+        <label for="stacked-sexo">Sexo</label>
+        <select class = "texto" id="stacked-sexo">
+            <option></option>
+            <option>Masculino</option>
+            <option>Feminino</option>
+            <option>Outros</option>
+        </select>
+                <label for="aligned-cb" class="pure-checkbox">
+                    <input type="checkbox" id="aligned-cb" /> Eu li os termos e condições </label>
+                <button type="submit" class="pure-button pure-button-primary">Criar conta</button>
+            </div>
+        </div>
+        </fieldset>
+    </form>
+</body>
+</html>
