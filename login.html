@@ -1,31 +1,182 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Tela de login</title>
+    <title>Exemplas Calçados!</title>
 </head>
 <body>
-    <h1>Tela de login</h1>
-    <form class="pure-form pure-form-aligned"></form>
-        <fieldset> 
+    <div id="primeiro-menu" class="pure-menu pure-menu-horizontal">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Atendimento</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Ajuda</a></li>
+            <li class="pure-menu-item frete"><a href="#" class="pure-menu-link"><b>FRETE GRÁTIS!*</b></a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contato</a></li>
+        </ul>
+    </div>
+    <main>
+        <div class="pure-menu pure-menu-horizontal">
+            <a href="#" class="pure-menu-heading"><img class="logo-img" src="img\\exemplar_sapatos.png" alt=""></a>
+            
+            <ul class="pure-menu-list">
+                <div class="pure-form">
+                    <input type="text" class="pure-input-1" placeholder="Pesquisar" />
+                    <button class="button-secondary pure-button" href="#"><img src="img\\lupa.png" alt="lupa" width="16px"></button>
+                </div>
+            </ul>
+            <ul id="entrar" class="pure-menu-list">
+                <a href="login.html">Entrar</a>
+            </ul>
+            <ul id="cadastro" class="pure-menu-list">
+                <a href="Cadastro.html">Cadastre-se</a>
+            </ul>
         </div>
-            <div class="pure-control-group">
-                <label for="aligned-email">Email</label>
-                <input type="email" id="aligned-email" placeholder="Email" />
-            </div>
-            <div class="pure-control-group">
-                <label for="aligned-password">Senha</label>
-                <input type="password" id="aligned-password" placeholder="Senha" />
-           
-            <div class="pure-controls">
-                <label for="aligned-cb" class="pure-checkbox">
-                    <input type="checkbox" id="aligned-cb" />Lembrar-me</label>
-                <button type="submit" class="pure-button pure-button-primary">Entrar</button>
-            </div>
-        </fieldset>
-    </form>
-</body>
+        <div class="pure-menu pure-menu-horizontal menu-principal">
+            <a href="index.html" class="pure-menu-heading pure-menu-link">Inicio</a>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">FEMININO</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Botas</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Coturnos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Tênis</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Sandálias</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Sapatilhas</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Ver mais +</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pure-menu-item pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">MASCULINO</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Chinelos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Sapatos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Sapatênis</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Tênis</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Botas</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Ver mais +</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pure-menu-item pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">INFANTIL</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Tênis</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Chinelos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Chuteiras</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Sandálias</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Sapatos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Ver mais +</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pure-menu-item pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">ESPORTE</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Roupas</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Calçados</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Acessórios</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Equipamentos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Suplementos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Ver mais +</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pure-menu-item pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">PREMIUM</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Roupas</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Calçados</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Acessórios</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Beleza</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Ver mais +</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <h1>Tela de Login</h1>
+        <form class="pure-form pure-form-aligned login">
+            <fieldset> 
+                </div>
+                    <div class="pure-control-group">
+                        <label for="aligned-email">Email</label>
+                        <input type="email" id="aligned-email" placeholder="Email" />
+                    </div>
+                    <div class="pure-control-group">
+                        <label for="aligned-password">Senha</label>
+                        <input type="password" id="aligned-password" placeholder="Senha" />
+                    </div>
+                    <div class="pure-controls">
+                        <label for="aligned-cb" class="pure-checkbox">
+                            <input type="checkbox" id="aligned-cb" />Lembrar-me</label> <br>
+                        <button type="button" onclick="location.href='index.html';" class="pure-button pure-button-primary">Entrar</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    
+    <div class="footer l-box">
+        <p>
+            Exemplar Sapatos 2020 - Direitos Reservados
+        </p>
+    </div>
+    
+    </body>
 </html>

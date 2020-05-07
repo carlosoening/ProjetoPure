@@ -1,61 +1,213 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de cadastro</title>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <title>Exemplas Calçados!</title>
 </head>
 <body>
-    <h1>Tela de cadastro</h1>
-    <div class = "banner banner2">
-    <form class="pure-form pure-input-rounded">
-        <fieldset>
-            <div class="pure-control-group">
-                <label for="aligned-nome">Nome completo</label>
-                <input type="text" class = "texto" id="aligned-nome" placeholder="Nome completo" />
-            </div>
-            <div class="pure-control-group">
-                <label for="aligned-email">E-mail</label>
-                <input type="email" class = "texto" id="aligned-email" placeholder="E-mail" />
-            </div>
-            <div class="pure-control-group">
-                <label for="aligned-senha">Senha</label>
-                <input type="password" class = "texto" id="aligned-senha" placeholder="Senha" />
-            </div>
-            <div>
-                <label for="diaa">Data de nascimento</label>
-                <input type="date" class = "texto" id="diaa" name="diaa">
-              </div>
-            <div class="pure-control-group">
-                <label for="aligned-cpf">CPF</label>
-                <input type="text" class = "texto" class="form-control cpf-mask" placeholder="Ex.: 000.000.000-00">
-            </div>
-            <div class="pure-control-group">
-                <label for="aligned-endereco">Endereço</label>
-                <input type="text" class = "texto" id="aligned-endereco" placeholder="Endereço" />
-            </div>
-            <label for="stacked-estado">Estado</label>
-        <select class = "texto" id="stacked-estado">
-            <option></option>
-            <option>PR</option>
-            <option>SC</option>
-            <option>RS</option>
-        </select>
-        <label for="stacked-sexo">Sexo</label>
-        <select class = "texto" id="stacked-sexo">
-            <option></option>
-            <option>Masculino</option>
-            <option>Feminino</option>
-            <option>Outros</option>
-        </select>
-                <label for="aligned-cb" class="pure-checkbox">
-                    <input type="checkbox" id="aligned-cb" /> Eu li os termos e condições </label>
-                <button type="submit" class="pure-button pure-button-primary">Criar conta</button>
-            </div>
+    <div id="primeiro-menu" class="pure-menu pure-menu-horizontal">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Atendimento</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Ajuda</a></li>
+            <li class="pure-menu-item frete"><a href="#" class="pure-menu-link"><b>FRETE GRÁTIS!*</b></a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contato</a></li>
+        </ul>
+    </div>
+    <main>
+        <div class="pure-menu pure-menu-horizontal">
+            <a href="#" class="pure-menu-heading"><img class="logo-img" src="img\\exemplar_sapatos.png" alt=""></a>
+            
+            <ul class="pure-menu-list">
+                <div class="pure-form">
+                    <input type="text" class="pure-input-1" placeholder="Pesquisar" />
+                    <button class="button-secondary pure-button" href="#"><img src="img\\lupa.png" alt="lupa" width="16px"></button>
+                </div>
+            </ul>
+            <ul id="entrar" class="pure-menu-list">
+                <a href="login.html">Entrar</a>
+            </ul>
+            <ul id="cadastro" class="pure-menu-list">
+                <a href="Cadastro.html">Cadastre-se</a>
+            </ul>
         </div>
-        </fieldset>
-    </form>
-</body>
+        <div class="pure-menu pure-menu-horizontal menu-principal">
+            <a href="index.html" class="pure-menu-heading pure-menu-link">Inicio</a>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">FEMININO</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Botas</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Coturnos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Tênis</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Sandálias</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Sapatilhas</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Ver mais +</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pure-menu-item pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">MASCULINO</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Chinelos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Sapatos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Sapatênis</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Tênis</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Botas</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Ver mais +</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pure-menu-item pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">INFANTIL</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Tênis</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Chinelos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Chuteiras</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Sandálias</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Sapatos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Ver mais +</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pure-menu-item pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">ESPORTE</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Roupas</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Calçados</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Acessórios</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Equipamentos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Suplementos</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Ver mais +</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pure-menu-item pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link">PREMIUM</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Roupas</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Calçados</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Acessórios</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Beleza</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#" class="pure-menu-link">Ver mais +</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <h1>Tela de Cadastro</h1>
+        <div class = "banner banner2">
+            <form class="pure-form pure-form-aligned">
+                <fieldset>
+                    <div class="pure-control-group">
+                        <label for="aligned-name">Nome completo</label>
+                        <input type="text" class = "texto" id="aligned-name" placeholder="Nome completo" />
+                    </div>
+                    <div class="pure-control-group">
+                        <label for="aligned-email">E-mail</label>
+                        <input type="email" class = "texto" id="aligned-email" placeholder="E-mail" />
+                    </div>
+                    <div class="pure-control-group">
+                        <label for="aligned-password">Senha</label>
+                        <input type="password" class = "texto" id="aligned-password" placeholder="Senha" />
+                    </div>
+                    <div class="pure-control-group">
+                        <label for="diaa">Data de nascimento</label>
+                        <input type="date" class = "texto" id="diaa" name="diaa">
+                    </div>
+                    <div class="pure-control-group">
+                        <label for="aligned-foo">CPF</label>
+                        <input type="text" id="aligned-foo"   class="form-control cpf-mask texto" placeholder="Ex.: 000.000.000-00">
+                    </div>
+                    <div class="pure-control-group">
+                        <label for="aligned-foo">Endereço</label>
+                        <input type="text" class = "texto" id="aligned-foo" placeholder="Endereço" />
+                    </div>
+                    <div class="selects">
+                        <label for="stacked-estado">Estado</label>
+                        <select class = "texto" id="stacked-estado">
+                            <option></option>
+                            <option>PR</option>
+                            <option>SC</option>
+                            <option>RS</option>
+                        </select>
+                        <label for="stacked-sexo">Sexo</label>
+                        <select class = "texto" id="stacked-sexo">
+                            <option></option>
+                            <option>Masculino</option>
+                            <option>Feminino</option>
+                            <option>Outros</option>
+                        </select>
+                        <label for="aligned-cb" class="pure-checkbox">
+                            <input type="checkbox" id="aligned-cb" /> Eu li os termos e condições 
+                        </label>
+                        <button type="submit" class="pure-button pure-button-primary">Criar conta</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    
+    <div class="footer l-box">
+        <p>
+            Exemplar Sapatos 2020 - Direitos Reservados
+        </p>
+    </div>
+    
+    </body>
 </html>

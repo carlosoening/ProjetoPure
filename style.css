@@ -143,6 +143,23 @@ main {
 #entrar a:hover {
     text-decoration: underline;
 }
+#cadastro {
+    margin-left: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+#cadastro a {
+    color: black;
+    text-decoration: none;
+}
+#cadastro a:visited   {
+    color: black;
+    text-decoration: none;
+}
+#cadastro a:hover {
+    text-decoration: underline;
+}
 .banner a:hover {
     text-decoration: underline;
 }
@@ -176,12 +193,20 @@ main {
     margin-right: 0px;
 }
 .banner2 {
-    background-image: url("img\banner2.png");
+    background-image: url("img\\banner4.jpg");
     width: 1000px;
     text-align: left;
     color:whitesmoke;
-
+    padding-left: 60px;
+    margin-bottom: 50px;
 }
 .texto {
     color:black;
+}
+.login{
+    text-align: center;
+    padding-right: 100px;
+}
+.selects {
+        margin-left: 126px;
 }
